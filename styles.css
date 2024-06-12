@@ -14,8 +14,7 @@ body {
 
 /* ナビゲーションバー */
 .navbar {
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
+    background-color: rgba(9, 9, 9, 0.927);
     top: 0;
     width: 100%;
     z-index: 10;
@@ -52,24 +51,6 @@ body {
 .hero-video {
     width: 100%;
     height: auto;
-}
-
-.hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.hero-button {
-    background-color: #008080;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 1.2em;
-    border-radius: 10px;
-    text-decoration: none;
 }
 
 /* サービスセクション */
@@ -158,5 +139,6 @@ footer {
         text-align: center;
         width: 100%;
         padding: 0 1em;
+        hi:auto;
     }
 }
