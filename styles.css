@@ -6,11 +6,43 @@ body {
     box-sizing: border-box;
 }
 
+/* 共通のコンテナスタイル */
 .container {
     width: 90%;
     margin: 0 auto;
 }
 
+/* ナビゲーションバー */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 1em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 1em;
+    display: block;
+}
+
+/* ヒーローセクション */
 .hero {
     position: relative;
     text-align: center;
@@ -40,28 +72,64 @@ body {
     text-decoration: none;
 }
 
-.services, .adventures, .cta {
+/* サービスセクション */
+.services {
     padding: 2em 0;
     text-align: center;
 }
 
-.service-grid, .adventure-grid {
+.service-grid {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.service, .adventure {
+.service {
     flex: 1;
     margin: 1em;
     max-width: 300px;
 }
 
-.service img, .adventure img, .cta-img {
-    width:auto;
+.service img {
+    width: auto;
     height: 200px;
 }
 
+/* アドベンチャーセクション */
+.adventures {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.adventure-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.adventure {
+    flex: 1;
+    margin: 1em;
+    max-width: 300px;
+}
+
+.adventure img {
+    width: auto;
+    height: 200px;
+}
+
+/* CTAセクション */
+.cta {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.cta img {
+    width: auto;
+    height: 50px;
+}
+
+/* フッターセクション */
 footer {
     background-color: #333;
     color: white;
